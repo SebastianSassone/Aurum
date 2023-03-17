@@ -493,11 +493,11 @@
   height: 190vh;
 }
 
-  /* Grafico */
-  .div-grafico {
-    height: 572px;
-    width: 1067px;
-  }
+/* Grafico */
+.div-grafico {
+  height: 572px;
+  width: 1067px;
+}
 
 /* Products img */
 
@@ -598,8 +598,9 @@
       display: flex;
       position: fixed;
       z-index: 22;
-      /* margin-bottom: +25%;
-      margin-left: 91.5%; */
+      margin-left: 80%;
+      margin-bottom: 20%;
+      background-color: black;
     }
 
     .nav-menu_visible {
@@ -655,6 +656,10 @@
     }
 
     /* Tienda */
+
+    .abrir_c{
+      margin-left: 0px;
+    }
 
     .section_products{
       height: 3800px;
