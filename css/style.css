@@ -560,6 +560,10 @@
       max-width: 100%;
     }
 
+    .logo{
+      display: flex;
+    }
+
     .header {
       height: 60px;
     }
@@ -574,7 +578,7 @@
       margin: 0;
       background-color: black;
       position: fixed;
-      top: 60px;
+      top: 98.4px;
       width: 100%;
       padding: 20px 0;
       height: calc(100% - 60px);
@@ -584,7 +588,7 @@
     }
 
     .nav-menu-item {
-      line-height: 70px;
+      line-height: 140px;
     }
 
     .nav-toggle {
@@ -592,14 +596,11 @@
       background: none;
       border: none;
       font-size: 30px;
-      padding: 20px;
       line-height: 60px;
       cursor: pointer;
       display: flex;
-      position: fixed;
-      z-index: 22;
-      margin-left: 80%;
-      margin-bottom: 20%;
+      width: 100%;
+      justify-content: right;
       background-color: black;
     }
 
@@ -619,7 +620,7 @@
 
     .portada_img{
       height: 93.5%;
-      background-image: url(../img/portada_movile.jpg);
+      background-image: url(../img/portada_movile.webp);
     }
    
     .portada_text{
@@ -674,7 +675,7 @@
     /* Compra oro */
     
     .section_com_oro{
-      height: 1200px;
+      height: 4000px;
     }
 
     /* Footer */

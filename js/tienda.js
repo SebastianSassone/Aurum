@@ -124,11 +124,3 @@ function crear_producto(producto){
                         boton.addEventListener('click', () => mosp_produc.style.display = 'none')
                         boton.addEventListener('click', () => boton.style.display = 'none')
 }
-
-
-document.querySelectorAll("*").forEach(el => {
-    const offsetWidth  = document.documentEelement
- if(el.offsetWidth > offsetWidth) {
-     console.log(el)       
-}
-})
