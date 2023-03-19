@@ -584,7 +584,7 @@
       margin: 0;
       background-color: black;
       position: fixed;
-      top: 98.4px;
+      top: 96px;
       width: 100%;
       padding: 20px 0;
       height: calc(100% - 60px);
@@ -601,11 +601,11 @@
       color: gold;
       background: none;
       border: none;
-      font-size: 30px;
+      font-size: 35px;
       line-height: 60px;
       cursor: pointer;
       display: flex;
-      height: 30px;
+      height: 40px;
       width: 100%;
       justify-content: right;
       background-color: black;
@@ -680,7 +680,6 @@
     .products{
       flex-direction: column;
       height: 950px;
-      border: 1px solid red;
     }
 
     /* Compra oro */
