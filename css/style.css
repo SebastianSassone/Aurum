@@ -500,9 +500,13 @@
 }
 
 /* Grafico */
-.div-grafico {
-  height: 572px;
-  width: 1067px;
+.grafico {
+    height: 400px; 
+    width: 660px; 
+}
+
+.grafico_movil {
+    display: none;
 }
 
 /* Products img */
@@ -654,9 +658,10 @@
     /* Registro */
 
     .section_registro form{
-      padding: 10px;
+      padding: 9px;
       margin-top: 35px;
-      height: 68vh;
+      font-size: 15px;
+      height: 69vh;
       width: 290px;
     }
     
@@ -665,6 +670,7 @@
     .section_ini_sec form{
       padding: 10px;
       width: 290px;
+      font-size: 15px;
     }
 
     /* Tienda */
@@ -707,9 +713,13 @@
     /* Compra oro */
     
     .section_com_oro{
-      height: 2400px;
+      height: 1800px;
     }
 
+    .grafico{
+      display: none;
+    }
+    
     /* Footer */
 
     .img_log{
