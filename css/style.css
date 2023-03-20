@@ -626,13 +626,13 @@
     }
 
     .portada_img{
-      height: 91%;
+      height: 85%;
       background-image: url(../img/portada_movile.webp);
     }
    
     .portada_text{
-      font-size: 20px;
-      height: 70px;
+      font-size: 15px;
+      height: 75px;
       text-align: center;
     }
    
@@ -641,14 +641,14 @@
     }
     
     .local_img{
-      height: 86%;
+      height: 85%;
       background-image: url(../img/local_movile.jpg);
     }
    
     .local_text{
+      font-size: 15px;
+      height: 75px;
       text-align: center;
-      font-size: 20px;
-      height: 65px;
     }
 
     /* Registro */
@@ -675,6 +675,15 @@
 
     .section_products{
       height: 3800px;
+    }
+
+    .carrito{
+      width: 300px;
+    }
+
+    .cerrar_c{
+      margin-left: 285px;
+      margin-bottom: 55vh;
     }
 
     .products{
