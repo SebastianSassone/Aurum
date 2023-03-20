@@ -670,7 +670,9 @@
     /* Tienda */
 
     .abrir_c{
-      margin-left: 0px;
+      margin-left: 2px;
+      height: 35px;
+      width: 55px;
     }
 
     .section_products{
@@ -691,6 +693,17 @@
       height: 950px;
     }
 
+    .pro_text{
+      font-size: 25px;
+    }
+
+    .name{
+      font-size: 20px;
+    }
+
+    .price{
+      font-size: 19px;
+    }
     /* Compra oro */
     
     .section_com_oro{
